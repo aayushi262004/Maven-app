@@ -3,7 +3,7 @@ agent any
 stages {
 stage('Clone Repository') {
 steps {
-git 'https://github.com/YOUR_USERNAME/Maven-Jenkins-App.git'
+git 'https://github.com/aayushi262004/Maven-app.git'
 }
 }
 stage('Check Java Version') {
